@@ -8,6 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open TestWebsite.html",
+            "url": "http://localhost:8080",
             "file": "/Volumes/GoogleDrive/My Drive/HtmlCSSPractice/TestWebsite.html"
         }
     ]
