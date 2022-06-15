@@ -1,3 +1,7 @@
+p{
+  font-family: Roboto, Arial, sans-serif;
+}
+
 .search-bar{
   display: block;
 }
@@ -8,6 +12,9 @@
 }
 
 .video-title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
   width: 300px;
 }
 
