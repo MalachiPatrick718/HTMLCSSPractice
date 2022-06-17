@@ -30,8 +30,24 @@
 }
 
 .search-button{
-  width: 60px;
+  width: 66px;
   height: 40px;
+  background-color: rgb(240, 240, 240);
+  border-color: rgb(192, 192, 192);
+  border: 1px;
+  border-style: solid;
+}
+
+.search-icon{
+  
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .voice-search-button{
@@ -47,9 +63,15 @@
 }
 
 .search-bar{
-  height: 34px;
+  height: 36px;
   flex: 1;
   padding-left: 10px;
+  font-size: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 .search-bar::placeholder{
@@ -61,7 +83,7 @@
   width: 200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .upload-button{
@@ -77,7 +99,7 @@
 }
 
 .youtube-profile{
-  width: 50px;
+  width: 30px;
 }
 
 
