@@ -1,3 +1,8 @@
+p{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
 .sidebar-div{
   position: fixed;
   left: 0;
@@ -5,4 +10,25 @@
   top: 55px;
   background-color: white;
   width: 72px;
+  padding-top: 5px;
+  z-index: 200;
+}
+
+.sidebar-div img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-div div{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+.sidebar-icon{
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
